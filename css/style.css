@@ -1,0 +1,49 @@
+/*  Here I’ll give you all the artistic freedom to style the site logo text how you see best fit.
+    Just for the sake of this example I’ll keep it simple and just change the font, increase the size a little and make the text bold:*/
+.logo h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+}
+
+/*  If you look at the front page of your site (http://localhost:1313/), you’ll probably notice that your content is not tall enough to push the footer all the way down to the bottom of the page.
+    We’ll fix this with CSS flexbox.
+    Open the style.css file and set the body element to be a flex container with a minimum height of the viewport:  */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*  The body element contains three child elements: header, main and footer.
+    We want the main content to expand to fill any unused space like so:    */
+/*  The flex property is a shorthand for defining flex-grow, flex-shrink and flex-basis, the last two values are optional.
+    The default value for flex-grow is zero which means that the element won’t take more space than it needs.
+    On the other hand the default for flex-shrink is one which means that elements try to shrink when there is not enough space to accommodate all elements in their full size. */
+main {
+    flex: 1;
+}
+
+/*  I wanted to go for a clean look with a relatively narrow maximum width for the article content.
+    To achieve this we will be needing a small CSS helper class to limit the maximum width of the text column.
+    I opted to go for a width of 800 pixels so I added the following CSS to "style.css":                        */
+.max-800px {
+    max-width: 800px;
+}
+
+/*  This is optional but if you want to show an image of yourself on each blog post then add an image to the "static/images" directory and modify the site parameters in "config.toml" to point to it.
+    For now we will only support one author per site.
+    Now open the style.css file again and add the following:   */
+/*  This piece of CSS will make the image round and size it to 48 by 48 pixels despite the original image dimensions and without stretching it awkwardly.
+    If the source image is not square the longer edge will be cropped.
+    For optimal performance it is recommended that you resize your original image to this size.                                                             */
+.author-image {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+/*   the blog text starts a bit too close to the content. That is why the figure element included the title-image class.    */
+.title-image {
+    padding-bottom: 1em;
+}
