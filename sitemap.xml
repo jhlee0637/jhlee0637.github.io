@@ -20,6 +20,9 @@
     <loc>http://example.org/post/2021/post-title/</loc>
     <lastmod>2021-07-06T14:28:25+09:00</lastmod>
   </url><url>
+    <loc>http://example.org/blog/2021/chapter1/</loc>
+    <lastmod>2021-07-06T13:21:11+09:00</lastmod>
+  </url><url>
     <loc>http://example.org/categories/</loc>
   </url><url>
     <loc>http://example.org/tags/</loc>
