@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>config.toml - title</title>
-    <link>http://example.org/</link>
+    <link>http://jhlee0637.github.io/</link>
     <description>Recent content on config.toml - title</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jul 2021 14:58:21 +0900</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Jul 2021 14:58:21 +0900</lastBuildDate><atom:link href="http://jhlee0637.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
+      <link>http://jhlee0637.github.io/about/</link>
       <pubDate>Fri, 09 Jul 2021 13:19:02 +0900</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>http://jhlee0637.github.io/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>My_first_post_description_check</title>
-      <link>http://example.org/post/2021/my_first_post_description_check/</link>
+      <link>http://jhlee0637.github.io/post/2021/my_first_post_description_check/</link>
       <pubDate>Tue, 06 Jul 2021 16:17:15 +0900</pubDate>
       
-      <guid>http://example.org/post/2021/my_first_post_description_check/</guid>
+      <guid>http://jhlee0637.github.io/post/2021/my_first_post_description_check/</guid>
       <description>aa</description>
     </item>
     
     <item>
       <title>Post Title</title>
-      <link>http://example.org/post/2021/post-title/</link>
+      <link>http://jhlee0637.github.io/post/2021/post-title/</link>
       <pubDate>Tue, 06 Jul 2021 14:28:25 +0900</pubDate>
       
-      <guid>http://example.org/post/2021/post-title/</guid>
+      <guid>http://jhlee0637.github.io/post/2021/post-title/</guid>
       <description>H1 level title This is a paragraph.</description>
     </item>
     
     <item>
       <title>chapter1</title>
-      <link>http://example.org/blog/2021/chapter1/</link>
+      <link>http://jhlee0637.github.io/blog/2021/chapter1/</link>
       <pubDate>Tue, 06 Jul 2021 13:21:11 +0900</pubDate>
       
-      <guid>http://example.org/blog/2021/chapter1/</guid>
+      <guid>http://jhlee0637.github.io/blog/2021/chapter1/</guid>
       <description>H1 level title This is a paragraph.
 This another paragraph with emphasis and strong emphasis.
 H2 level title H3 level title This is a hyperlink

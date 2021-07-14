@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog index on config.toml - title</title>
-    <link>http://example.org/blog/</link>
+    <link>http://jhlee0637.github.io/blog/</link>
     <description>Recent content in blog index on config.toml - title</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jul 2021 13:30:06 +0900</lastBuildDate><atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jul 2021 13:30:06 +0900</lastBuildDate><atom:link href="http://jhlee0637.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>chapter1</title>
-      <link>http://example.org/blog/2021/chapter1/</link>
+      <link>http://jhlee0637.github.io/blog/2021/chapter1/</link>
       <pubDate>Tue, 06 Jul 2021 13:21:11 +0900</pubDate>
       
-      <guid>http://example.org/blog/2021/chapter1/</guid>
+      <guid>http://jhlee0637.github.io/blog/2021/chapter1/</guid>
       <description>H1 level title This is a paragraph.
 This another paragraph with emphasis and strong emphasis.
 H2 level title H3 level title This is a hyperlink
