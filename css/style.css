@@ -46,7 +46,7 @@ main {
 /*  the blog text starts a bit too close to the content.
     That is why the figure element included the title-image class.    */
 .title-image {
-    padding-bottom: 100em;
+    padding-bottom: 1em;
 }
 
 /*  Without this helper class the title would expand to the full width of the parent container which would look ugly with the background color.
