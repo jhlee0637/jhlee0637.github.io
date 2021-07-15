@@ -46,12 +46,13 @@ main {
 /*  the blog text starts a bit too close to the content.
     That is why the figure element included the title-image class.    */
 .title-image {
-    padding-bottom: 1em;
+    padding-bottom: 100em;
 }
 
 /*  Without this helper class the title would expand to the full width of the parent container which would look ugly with the background color.
     The "display: table" fixes this by making the title element take only the space that it requires.
     The small padding gives just a tiny bit of headroom so that the background doesn’t start from the edges of the letters.   */
+
 .narrow-background {
     display: table;
     padding: 0.1em;
