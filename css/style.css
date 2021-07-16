@@ -52,8 +52,23 @@ main {
 /*  Without this helper class the title would expand to the full width of the parent container which would look ugly with the background color.
     The "display: table" fixes this by making the title element take only the space that it requires.
     The small padding gives just a tiny bit of headroom so that the background doesn’t start from the edges of the letters.   */
-
 .narrow-background {
     display: table;
     padding: 0.1em;
+}
+
+/*  I modified the idea from this page to generate a responsive Google Maps embed code.
+    As the styling is specific to this page only you can add the following CSS inside <style> tags on the page template. */
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+    height: 0;
+}
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
